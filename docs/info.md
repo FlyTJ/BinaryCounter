@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The built in 1 Hz clock sends a pulse to a D Flip Flop array that counts in binary with outputs being hooked up to LEDs.  Note that some of the flipflops might be in an unknown state so might be lit upon powerup. I could not figure out how to reset the D Flipflop upon powerup.
 
 ## How to test
 
-Explain how to use your project
+Simply power up the unit, and make sure you have at least one LED hooked up to the first output.  You can connect up to 8 LEDS - for all of the outputs to show a binary counter.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None other than the LEDs and possible resistors for each LED to limit current.
