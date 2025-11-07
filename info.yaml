@@ -4,7 +4,7 @@ project:
   title:        "Binary Counter"      # Project title
   author:       "TJ Johnson"      # Your name
   discord:      "FlyTJ"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Binary counter that takes in a clock on Pin 1 and outputs high logic on each of the outputs to light LEDS to show a binary representation of a counter.  Note that upon boot, the lights might already be in some sequence as I could not figure out to issue a reset on the D Flipflops"      # One line description of what your project does
+  description:  "Binary counter that runs on internal 1Hz clock and outputs high logic on each of the outputs to light LEDS to show a binary representation of a counter.  Note that upon boot, the lights might already be in some sequence as I could not figure out to issue a reset on the D Flipflops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable)
 
